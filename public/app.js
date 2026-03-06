@@ -31,7 +31,6 @@ fillDemoBtn.addEventListener('click', () => {
 form.addEventListener('submit', async (event) => {
   event.preventDefault();
   warningBox.classList.add('hidden');
-  resultSection.classList.add('hidden');
   previewBody.innerHTML = '';
   counts.innerHTML = '';
 
